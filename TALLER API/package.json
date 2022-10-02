@@ -1,0 +1,25 @@
+{
+  "name": "lab-7---asincronismo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "tsc --watch",
+    "lint": "eslin . --ext .ts",
+    "dev": "nodemon server.js --exec \"npm run lint && node\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "^8.24.0",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
